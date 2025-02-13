@@ -4,37 +4,37 @@ This is a real-time chat application built using Spring Boot (WebSockets, STOMP,
 
 Features
 
-Real-time messaging with WebSockets.
+- Real-time messaging with WebSockets.
 
-Uses STOMP protocol for message handling.
+- Uses STOMP protocol for message handling.
 
-SockJS fallback for clients that do not support WebSockets.
+- SockJS fallback for clients that do not support WebSockets.
 
-Simple frontend using Thymeleaf and JavaScript.
+- Simple frontend using Thymeleaf and JavaScript.
 
 Technologies Used
 
-Backend:
+- Backend:
 
-Java 17
+- Java 17
 
-Spring Boot 3+
+- Spring Boot 3+
 
-Spring WebSocket
+- Spring WebSocket
 
-STOMP Protocol
+- STOMP Protocol
 
-SockJS
+- SockJS
 
-Spring MVC (Thymeleaf for UI Rendering)
+- Spring MVC (Thymeleaf for UI Rendering)
 
 Frontend:
 
-Thymeleaf
+- Thymeleaf
 
-JavaScript (SockJS & STOMP.js)
+- JavaScript (SockJS & STOMP.js)
 
-HTML
+- HTML
 Project Structure
 ```
 chat-application/
@@ -69,13 +69,13 @@ mvn spring-boot:run
 ```
 Or using an IDE (IntelliJ, Eclipse):
 
-Open the project
+- Open the project
 
-Run ChatApplication.java
+- Run ChatApplication.java
 
 Access the Application
 
-Open the browser and visit:
+- Open the browser and visit:
 
 http://localhost:8080/chat
 
@@ -101,13 +101,13 @@ Clients send messages to this endpoint
 
 How It Works
 
-Users open http://localhost:8080/chat.
+1.Users open http://localhost:8080/chat.
 
-WebSocket connection (/chat) is established.
+2.WebSocket connection (/chat) is established.
 
-When a user sends a message, it is published to /app/sendMessage.
+3.When a user sends a message, it is published to /app/sendMessage.
 
-The message is then broadcasted to all clients subscribed to /topic/messages.
+4.The message is then broadcasted to all clients subscribed to /topic/messages.
 
-The frontend updates and displays the new message.
+5.The frontend updates and displays the new message.
 

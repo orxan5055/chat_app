@@ -85,9 +85,9 @@ http://localhost:8080/chat
 
 | Endpoint           | Description                              |
 |-------------------|------------------------------------------|
-| `/ws-chat`       | WebSocket connection endpoint           |
+| `/chat`       | WebSocket connection endpoint           |
 | `/app/sendMessage` | Clients send messages to this endpoint  |
-| `/topic/messages`  | Clients receive messages from this topic |
+| `/topic/messages`  | Clients subscribe to receive messages |
 
 
 ### How It Works

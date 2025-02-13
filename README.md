@@ -55,12 +55,12 @@ chat-application/
 ```
 ### Installation & Setup
 
-### 1️⃣Clone the Repository
+### 1️⃣ Clone the Repository
 ```
 git clone https://github.com/your-username/chat-application.git
 cd chat-application
 ```
-2️⃣ ### Build & Run the Project
+###2️⃣ Build & Run the Project
 
 ###### Using Maven:
 ```

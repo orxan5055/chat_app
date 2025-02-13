@@ -92,13 +92,13 @@ http://localhost:8080/chat
 
 ### How It Works
 
-1.Users open http://localhost:8080/chat.
+1. Users open http://localhost:8080/chat.
 
-2.WebSocket connection (/chat) is established.
+2. WebSocket connection (/chat) is established.
 
-3.When a user sends a message, it is published to /app/sendMessage.
+3. When a user sends a message, it is published to /app/sendMessage.
 
-4.The message is then broadcasted to all clients subscribed to /topic/messages.
+4. The message is then broadcasted to all clients subscribed to /topic/messages.
 
-5.The frontend updates and displays the new message.
+5. The frontend updates and displays the new message.
 

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <title>Chat Application</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+  <script src="/js/chat.js"></script>
+</head>
+<body>
+<h2>Real-Time Chat</h2>
+
+<div>
+  <input type="text" id="messageInput" placeholder="Enter message..." />
+  <button onclick="sendMessage()">Send</button>
+</div>
+
+<div>
+  <h3>Messages:</h3>
+  <ul id="messagesList"></ul>
+</div>
+</body>
+</html>

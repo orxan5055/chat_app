@@ -1,8 +1,8 @@
-Real-Time Chat Application
+#Real-Time Chat Application
 
 This is a real-time chat application built using Spring Boot (WebSockets, STOMP, SockJS) and Thymeleaf for the frontend.
 
-Features
+###Features
 
 - Real-time messaging with WebSockets.
 
@@ -12,9 +12,9 @@ Features
 
 - Simple frontend using Thymeleaf and JavaScript.
 
-Technologies Used
+###Technologies Used
 
-- Backend:
+###Backend:
 
 - Java 17
 
@@ -28,14 +28,14 @@ Technologies Used
 
 - Spring MVC (Thymeleaf for UI Rendering)
 
-Frontend:
+###Frontend:
 
 - Thymeleaf
 
 - JavaScript (SockJS & STOMP.js)
 
 - HTML
-Project Structure
+###Project Structure
 ```
 chat-application/
 │── src/
@@ -53,35 +53,35 @@ chat-application/
 │── pom.xml
 │── README.md
 ```
-Installation & Setup
+###Installation & Setup
 
-1️⃣ Clone the Repository
+1️⃣ ###Clone the Repository
 ```
 git clone https://github.com/your-username/chat-application.git
 cd chat-application
 ```
-2️⃣ Build & Run the Project
+2️⃣ ###Build & Run the Project
 
-Using Maven:
+######Using Maven:
 ```
 mvn clean package
 mvn spring-boot:run
 ```
-Or using an IDE (IntelliJ, Eclipse):
+######Or using an IDE (IntelliJ, Eclipse):
 
 - Open the project
 
 - Run ChatApplication.java
 
-Access the Application
+###Access the Application
 
 - Open the browser and visit:
 
 http://localhost:8080/chat
 
-API Endpoints
+###API Endpoints
 
-WebSocket Endpoints
+####WebSocket Endpoints
 
 Endpoint
 
@@ -99,7 +99,7 @@ Clients subscribe to receive messages
 
 Clients send messages to this endpoint
 
-How It Works
+###How It Works
 
 1.Users open http://localhost:8080/chat.
 

@@ -55,7 +55,7 @@ chat-application/
 ```
 ### Installation & Setup
 
-1️⃣ ### Clone the Repository
+### 1️⃣Clone the Repository
 ```
 git clone https://github.com/your-username/chat-application.git
 cd chat-application

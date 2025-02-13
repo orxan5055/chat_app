@@ -60,14 +60,14 @@ chat-application/
 git clone https://github.com/your-username/chat-application.git
 cd chat-application
 ```
-###2️⃣ Build & Run the Project
+### 2️⃣ Build & Run the Project
 
-###### Using Maven:
+##### Using Maven:
 ```
 mvn clean package
 mvn spring-boot:run
 ```
-###### Or using an IDE (IntelliJ, Eclipse):
+##### Or using an IDE (IntelliJ, Eclipse):
 
 - Open the project
 
